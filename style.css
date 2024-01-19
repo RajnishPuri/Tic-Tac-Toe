@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url("./assets/gradient-bg.jpg");
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.playerInfo{
+    margin-top: 5vh;
+    background: rgba(216, 189, 189, 0.623);
+    width: 8vw;
+    height: 3vh;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background: rgba(216, 189, 189, 0.623);
+    width: 10vw;
+    height: 20vh;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin-bottom: 5vh;
+    background: rgba(216, 189, 189, 0.623);
+    width: 8vw;
+    height: 3vh;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    scale: 0;
+}
+
+.box1{
+    height: 33%;
+    width: 33%;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    height: 33%;
+    width: 33%;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3{
+    height: 33%;
+    width: 33%;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4{
+    height: 33%;
+    width: 33%;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box5{
+    height: 33%;
+    width: 33%;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box6{
+    height: 33%;
+    width: 33%;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7{
+    height: 33%;
+    width: 33%;
+    border-right: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box8{
+    height: 33%;
+    width: 33%;
+    border-right: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box9{
+    height: 33%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.green{
+    background-color: rgba(173, 233, 85, 0.575);
+}
